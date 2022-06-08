@@ -29,6 +29,7 @@ class TestDatabaseFunctions(unittest.TestCase):
         self.is_local = 'true'
         self.uuid = "123e4567-e89b-12d3-a456-426614174000"
         self.text = "Aprender DevOps y Cloud en la UNIR"
+        self.language = "en"
 
         from src.todoList import create_todo_table
         self.table = create_todo_table(self.dynamodb)
@@ -199,7 +200,22 @@ class TestDatabaseFunctions(unittest.TestCase):
         # Testing file functions
         self.assertRaises(TypeError, delete_item("", self.dynamodb))
         print ('End: test_delete_todo_error')
-
+    
+    def test_translate_todo_error(self):
+        print ('---------------------')
+        print ('Start: test_translate_todo_error')
+        from src.todoList import get_translation
+        from src.todoList import put_item
+        from src.todoList import get_item
+        # Table mock
+        self.assertRaises(Exception, get_translation("", self.language, self.dynamodb))
+        responsePut = put_item(self.text, self.dynamodb)
+        print ('Response put_item:' + str(responsePut))
+        idItem = json.loads(responsePut['body'])['id']
+        print ('Id item:' + idItem)
+        responseGet = get_item(idItem,self.dynamodb)
+        self.assertRaises(Exception, get_translation(idItem, "", self.dynamodb))
+        print ('End: test_translate_todo_error')
 
 
 if __name__ == '__main__':
