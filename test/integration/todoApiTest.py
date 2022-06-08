@@ -4,13 +4,11 @@ import unittest
 from urllib.request import urlopen
 import requests
 import json
-
 import pytest
 
 BASE_URL = os.environ.get("BASE_URL")
 #BASE_URL = "https://m0qwfec693.execute-api.us-east-1.amazonaws.com/Prod"
 DEFAULT_TIMEOUT = 2  # in secs
-
 
 @pytest.mark.api
 class TestApi(unittest.TestCase):
@@ -199,7 +197,6 @@ class TestApi(unittest.TestCase):
             response.status_code, 404, "Error en la petición API a {url}"
         )
         print('End - integration test Delete TODO')
-    
     def test_api_translatetodo(self):
         print('---------------------------------------')
         print('Starting - integration test Translate TODO')
