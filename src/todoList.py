@@ -159,8 +159,8 @@ def get_translation(key, language, dynamodb=None):
                 'id': key
             }
         )
-        translation = translator.translate_text(Text=result['Item']["text"], 
-                                                SourceLanguageCode="auto", 
+        translation = translator.translate_text(Text=result['Item']["text"],
+                                                SourceLanguageCode="auto",
                                                 TargetLanguageCode=language)
     except ClientError as e:  # pragma: no cover
         print(e.response['Error']['Message'])
