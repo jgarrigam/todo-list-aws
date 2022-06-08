@@ -112,13 +112,13 @@ Resources:
     Properties:
       CodeUri: src/
       Role: !Sub "arn:aws:iam::${AWS::AccountId}:role/LabRole"
-      Handler: get.get
+      Handler: translate.translate
       Runtime: python3.7
       Events:
         Create:
           Type: Api
           Properties:
-            Path: /todos/{id}
+            Path: /todos/{id}/{language}
             Method: get
 
 
@@ -146,5 +146,5 @@ Outputs:
     Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/todos/{id}"
   TranslateTodoApi:
     Description: "API Gateway endpoint URL for ${opt:stage} stage for translate TODO"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/todos/{id}"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/todos/{id}/{language}"
 
