@@ -1,0 +1,145 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red136\green135\blue135;}
+{\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c60392\c60000\c60000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Started by user {\field{\*\fldinst{HYPERLINK "http://44.205.209.192:8080/user/jaume"}}{\fldrslt jaume}}\
+Obtained pipelines/PIPELINE-FULL-CD/Jenkinsfile from git {\field{\*\fldinst{HYPERLINK "https://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@github.com/jgarrigam/todo-list-aws.git"}}{\fldrslt \cf2 \strokec2 https://XXXXX@github.com/jgarrigam/todo-list-aws.git}}\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] Start of Pipeline\
+[Pipeline] node\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Running on {\field{\*\fldinst{HYPERLINK "http://44.205.209.192:8080/computer/(built-in)/"}}{\fldrslt Jenkins}} in /var/lib/jenkins/workspace/PIPELINE-FULL-CD\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \{\
+[Pipeline] stage\
+[Pipeline] \{ (Declarative: Checkout SCM)\
+[Pipeline] checkout\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Selected Git installation does not exist. Using Default\
+The recommended git tool is: NONE\
+using credential fa63c106-c718-43da-9e98-27bead095463\
+Cloning the remote Git repository\
+Cloning repository {\field{\*\fldinst{HYPERLINK "https://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@github.com/jgarrigam/todo-list-aws.git"}}{\fldrslt \cf2 \strokec2 XXXXX}}\
+ > git init /var/lib/jenkins/workspace/PIPELINE-FULL-CD # timeout=10\
+Fetching upstream changes from {\field{\*\fldinst{HYPERLINK "https://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@github.com/jgarrigam/todo-list-aws.git"}}{\fldrslt \cf2 \strokec2 https://XXXXX@github.com/jgarrigam/todo-list-aws.git}}\
+ > git --version # timeout=10\
+ > git --version # 'git version 2.17.1'\
+using GIT_ASKPASS to set credentials \
+ > git fetch --tags --progress -- {\field{\*\fldinst{HYPERLINK "https://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@github.com/jgarrigam/todo-list-aws.git"}}{\fldrslt \cf2 \strokec2 https://XXXXX@github.com/jgarrigam/todo-list-aws.git}} +refs/heads/*:refs/remotes/origin/* # timeout=10\
+ > git config remote.origin.url {\field{\*\fldinst{HYPERLINK "https://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@github.com/jgarrigam/todo-list-aws.git"}}{\fldrslt \cf2 \strokec2 https://XXXXX@github.com/jgarrigam/todo-list-aws.git}} # timeout=10\
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10\
+Avoid second fetch\
+ > git rev-parse refs/remotes/origin/master^\{commit\} # timeout=10\
+Checking out Revision 8631fc533ec75f17c0274c8674031b8b50b3540c (refs/remotes/origin/master)\
+ > git config core.sparsecheckout # timeout=10\
+ > git checkout -f 8631fc533ec75f17c0274c8674031b8b50b3540c # timeout=10\
+Commit message: "Merge branch 'develop'"\
+First time build. Skipping changelog.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \}\
+[Pipeline] // stage\
+[Pipeline] withEnv\
+[Pipeline] \{\
+[Pipeline] stage\
+[Pipeline] \{ (Staging)\
+[Pipeline] echo\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Starting staging job\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] build (Building PIPELINE-FULL-STAGING)\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Scheduling project: {\field{\*\fldinst{HYPERLINK "http://44.205.209.192:8080/job/PIPELINE-FULL-STAGING/"}}{\fldrslt \cf2 \strokec2 PIPELINE-FULL-STAGING}}\
+Starting building: {\field{\*\fldinst{HYPERLINK "http://44.205.209.192:8080/job/PIPELINE-FULL-STAGING/11/"}}{\fldrslt \cf2 \strokec2 PIPELINE-FULL-STAGING #11}}\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \}\
+[Pipeline] // stage\
+[Pipeline] stage\
+[Pipeline] \{ (Merge)\
+[Pipeline] sh (Merging code to master)\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 + set -x\
++ git branch -a\
+* (HEAD detached at 8631fc5)\
+  remotes/origin/develop\
+  remotes/origin/feature\
+  remotes/origin/master\
++ git checkout -b develop origin/develop\
+Previous HEAD position was 8631fc5 Merge branch 'develop'\
+Switched to a new branch 'develop'\
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.\
++ git checkout -b master origin/master\
+Switched to a new branch 'master'\
+Branch 'master' set up to track remote branch 'master' from 'origin'.\
++ git merge develop\
+Already up to date.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] sshagent\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 FATAL: [ssh-agent] Could not find specified credentials\
+[ssh-agent] Looking for ssh-agent implementation...\
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)\
+$ ssh-agent\
+SSH_AUTH_SOCK=/tmp/ssh-NpRRtcr6MVCq/agent.9100\
+SSH_AGENT_PID=9103\
+[ssh-agent] Started.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \{\
+[Pipeline] sh\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 + git push origin master\
+Everything up-to-date\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \}\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 $ ssh-agent -k\
+unset SSH_AUTH_SOCK;\
+unset SSH_AGENT_PID;\
+echo Agent pid 9103 killed;\
+[ssh-agent] Stopped.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] // sshagent\
+[Pipeline] \}\
+[Pipeline] // stage\
+[Pipeline] stage\
+[Pipeline] \{ (Production)\
+[Pipeline] echo\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Starting production job\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] build (Building PIPELINE-FULL-PRODUCTION)\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Scheduling project: {\field{\*\fldinst{HYPERLINK "http://44.205.209.192:8080/job/PIPELINE-FULL-PRODUCTION/"}}{\fldrslt \cf2 \strokec2 PIPELINE-FULL-PRODUCTION}}\
+Starting building: {\field{\*\fldinst{HYPERLINK "http://44.205.209.192:8080/job/PIPELINE-FULL-PRODUCTION/3/"}}{\fldrslt \cf2 \strokec2 PIPELINE-FULL-PRODUCTION #3}}\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \}\
+[Pipeline] // stage\
+[Pipeline] stage\
+[Pipeline] \{ (Declarative: Post Actions)\
+[Pipeline] echo\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Clean env: delete dir\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] cleanWs\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 [WS-CLEANUP] Deleting project workspace...\
+[WS-CLEANUP] Deferred wipeout is used...\
+[WS-CLEANUP] done\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 [Pipeline] \}\
+[Pipeline] // stage\
+[Pipeline] \}\
+[Pipeline] // withEnv\
+[Pipeline] \}\
+[Pipeline] // node\
+[Pipeline] End of Pipeline\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 Finished: SUCCESS\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \
+}
