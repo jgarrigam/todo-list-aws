@@ -1,0 +1,325 @@
+@timestamp,@message
+2022-05-30 15:25:37.685,"END RequestId: 97a2d35b-4f0c-45d8-9b90-568572eea504
+"
+2022-05-30 15:25:37.685,"REPORT RequestId: 97a2d35b-4f0c-45d8-9b90-568572eea504	Duration: 1713.07 ms	Billed Duration: 1714 ms	Memory Size: 128 MB	Max Memory Used: 67 MB	Init Duration: 405.68 ms	
+"
+2022-05-30 15:25:35.971,"START RequestId: 97a2d35b-4f0c-45d8-9b90-568572eea504 Version: $LATEST
+"
+2022-05-30 15:25:23.556,"END RequestId: 62f1d74d-d6c2-421e-a572-ae12d437c5ba
+"
+2022-05-30 15:25:23.556,"REPORT RequestId: 62f1d74d-d6c2-421e-a572-ae12d437c5ba	Duration: 1590.66 ms	Billed Duration: 1591 ms	Memory Size: 128 MB	Max Memory Used: 67 MB	Init Duration: 365.91 ms	
+"
+2022-05-30 15:25:21.964,"START RequestId: 62f1d74d-d6c2-421e-a572-ae12d437c5ba Version: $LATEST
+"
+2022-05-30 15:23:53.157,"END RequestId: f6884dc6-9572-47ec-a7d4-c7ab4b57d43d
+"
+2022-05-30 15:23:53.157,"REPORT RequestId: f6884dc6-9572-47ec-a7d4-c7ab4b57d43d	Duration: 2.60 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 15:23:53.156,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/update.py"", line 8, in update    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:23:53.154,"START RequestId: f6884dc6-9572-47ec-a7d4-c7ab4b57d43d Version: $LATEST
+"
+2022-05-30 15:21:30.596,"END RequestId: ca72155a-6b38-48a9-a6db-7ab16cc8a0f8
+"
+2022-05-30 15:21:30.596,"REPORT RequestId: ca72155a-6b38-48a9-a6db-7ab16cc8a0f8	Duration: 3.59 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	
+"
+2022-05-30 15:21:30.593,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:21:30.589,"START RequestId: ca72155a-6b38-48a9-a6db-7ab16cc8a0f8 Version: $LATEST
+"
+2022-05-30 15:21:00.600,"END RequestId: 70d98ffb-0805-4c89-bdcf-b3712d7eeed0
+"
+2022-05-30 15:21:00.600,"REPORT RequestId: 70d98ffb-0805-4c89-bdcf-b3712d7eeed0	Duration: 1.72 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	
+"
+2022-05-30 15:21:00.599,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:21:00.595,"START RequestId: 70d98ffb-0805-4c89-bdcf-b3712d7eeed0 Version: $LATEST
+"
+2022-05-30 15:20:56.118,"END RequestId: f01344b5-26c8-4089-8a12-0204b815d053
+"
+2022-05-30 15:20:56.118,"REPORT RequestId: f01344b5-26c8-4089-8a12-0204b815d053	Duration: 1.70 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	
+"
+2022-05-30 15:20:56.117,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:20:56.114,"START RequestId: f01344b5-26c8-4089-8a12-0204b815d053 Version: $LATEST
+"
+2022-05-30 15:20:43.433,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:20:43.433,"END RequestId: bea80096-9fd1-4616-aa18-9d872fa8411b
+"
+2022-05-30 15:20:43.433,"REPORT RequestId: bea80096-9fd1-4616-aa18-9d872fa8411b	Duration: 1.57 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	
+"
+2022-05-30 15:20:43.430,"START RequestId: bea80096-9fd1-4616-aa18-9d872fa8411b Version: $LATEST
+"
+2022-05-30 15:20:05.061,"END RequestId: 0495f75f-4bf9-49f4-8516-756423cf915c
+"
+2022-05-30 15:20:05.061,"REPORT RequestId: 0495f75f-4bf9-49f4-8516-756423cf915c	Duration: 1600.35 ms	Billed Duration: 1601 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	Init Duration: 394.07 ms	
+"
+2022-05-30 15:20:03.460,"START RequestId: 0495f75f-4bf9-49f4-8516-756423cf915c Version: $LATEST
+"
+2022-05-30 15:19:57.080,"END RequestId: 890d1ab4-9c89-4de4-97a6-8a66dd057337
+"
+2022-05-30 15:19:57.080,"REPORT RequestId: 890d1ab4-9c89-4de4-97a6-8a66dd057337	Duration: 1.84 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	
+"
+2022-05-30 15:19:57.079,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:19:57.077,"START RequestId: 890d1ab4-9c89-4de4-97a6-8a66dd057337 Version: $LATEST
+"
+2022-05-30 15:19:47.761,"END RequestId: f3050a11-de4a-4231-954b-1d6c529acbae
+"
+2022-05-30 15:19:47.761,"REPORT RequestId: f3050a11-de4a-4231-954b-1d6c529acbae	Duration: 2.01 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:19:47.760,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:19:47.757,"START RequestId: f3050a11-de4a-4231-954b-1d6c529acbae Version: $LATEST
+"
+2022-05-30 15:17:40.006,"END RequestId: bededf95-7816-43bd-8828-e24b819e7821
+"
+2022-05-30 15:17:40.006,"REPORT RequestId: bededf95-7816-43bd-8828-e24b819e7821	Duration: 1.95 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:17:40.005,"[ERROR]	2022-05-30T15:17:40.005Z	bededf95-7816-43bd-8828-e24b819e7821	Validation failed
+"
+2022-05-30 15:17:40.005,"[ERROR] Exception: Couldn't create the todo item.Traceback (most recent call last):  File ""/var/task/create.py"", line 10, in create    raise Exception(""Couldn't create the todo item."")
+"
+2022-05-30 15:17:40.003,"START RequestId: bededf95-7816-43bd-8828-e24b819e7821 Version: $LATEST
+"
+2022-05-30 15:17:27.755,"END RequestId: 583e84aa-ade7-4005-8e4f-6f76132edad7
+"
+2022-05-30 15:17:27.755,"REPORT RequestId: 583e84aa-ade7-4005-8e4f-6f76132edad7	Duration: 1.75 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:17:27.754,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:17:27.752,"START RequestId: 583e84aa-ade7-4005-8e4f-6f76132edad7 Version: $LATEST
+"
+2022-05-30 15:17:11.178,"END RequestId: 4df4681d-5e8f-4155-8860-54de6d819a46
+"
+2022-05-30 15:17:11.178,"REPORT RequestId: 4df4681d-5e8f-4155-8860-54de6d819a46	Duration: 2.14 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:17:11.177,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:17:11.174,"START RequestId: 4df4681d-5e8f-4155-8860-54de6d819a46 Version: $LATEST
+"
+2022-05-30 15:16:45.790,"END RequestId: e31a8426-0603-48d7-9827-2b3d883892fe
+"
+2022-05-30 15:16:45.790,"REPORT RequestId: e31a8426-0603-48d7-9827-2b3d883892fe	Duration: 1.83 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:16:45.789,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:16:45.786,"START RequestId: e31a8426-0603-48d7-9827-2b3d883892fe Version: $LATEST
+"
+2022-05-30 15:16:37.471,"END RequestId: 86d2a4ea-a31b-4edf-be5d-3e4cfe07c63d
+"
+2022-05-30 15:16:37.471,"REPORT RequestId: 86d2a4ea-a31b-4edf-be5d-3e4cfe07c63d	Duration: 2.48 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:16:37.470,"[ERROR] JSONDecodeError: Expecting value: line 1 column 1 (char 0)Traceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 348, in loads    return _default_decoder.decode(s)  File ""/var/lang/lib/python3.7/json/decoder.py"", line 337, in decode    obj, end = self.raw_decode(s, idx=_w(s, 0).end())  File ""/var/lang/lib/python3.7/json/decoder.py"", line 355, in raw_decode    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+"
+2022-05-30 15:16:37.467,"START RequestId: 86d2a4ea-a31b-4edf-be5d-3e4cfe07c63d Version: $LATEST
+"
+2022-05-30 15:13:06.030,"END RequestId: 1bf4f9fc-800b-4c50-88df-3ba0987371c2
+"
+2022-05-30 15:13:06.030,"REPORT RequestId: 1bf4f9fc-800b-4c50-88df-3ba0987371c2	Duration: 1560.23 ms	Billed Duration: 1561 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	Init Duration: 358.55 ms	
+"
+2022-05-30 15:13:05.995,"Result getItem:{'Item': {'checked': False, 'createdAt': '1653923427.1577032', 'text': 'Learn Serverless', 'id': 'a3340fac-e02a-11ec-88d7-924c71d5f47e', 'updatedAt': '1653923427.1577032'}, 'ResponseMetadata': {'RequestId': 'CL12MMGKRDRITB76JRT3GTJ4GJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Mon, 30 May 2022 15:13:05 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '195', 'connection': 'keep-alive', 'x-amzn-requestid': 'CL12MMGKRDRITB76JRT3GTJ4GJVV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '1777455287'}, 'RetryAttempts': 0}}
+"
+2022-05-30 15:13:04.468,"START RequestId: 1bf4f9fc-800b-4c50-88df-3ba0987371c2 Version: $LATEST
+"
+2022-05-30 15:11:58.661,"END RequestId: 677622cf-1437-46e6-b6d5-174e83a408fc
+"
+2022-05-30 15:11:58.661,"REPORT RequestId: 677622cf-1437-46e6-b6d5-174e83a408fc	Duration: 1747.20 ms	Billed Duration: 1748 ms	Memory Size: 128 MB	Max Memory Used: 67 MB	Init Duration: 392.96 ms	
+"
+2022-05-30 15:11:56.913,"START RequestId: 677622cf-1437-46e6-b6d5-174e83a408fc Version: $LATEST
+"
+2022-05-30 15:11:32.147,"END RequestId: e6c32656-e55e-441e-b350-8d1e9b4dfdd6
+"
+2022-05-30 15:11:32.147,"REPORT RequestId: e6c32656-e55e-441e-b350-8d1e9b4dfdd6	Duration: 2.62 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 15:11:32.146,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 15:11:32.142,"START RequestId: e6c32656-e55e-441e-b350-8d1e9b4dfdd6 Version: $LATEST
+"
+2022-05-30 15:10:27.597,"END RequestId: 1582622c-31ef-4445-b735-e190a1db56ce
+"
+2022-05-30 15:10:27.597,"REPORT RequestId: 1582622c-31ef-4445-b735-e190a1db56ce	Duration: 1814.12 ms	Billed Duration: 1815 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	Init Duration: 376.43 ms	
+"
+2022-05-30 15:10:27.157,"Table name:default-TodosDynamoDbTable
+"
+2022-05-30 15:10:25.783,"START RequestId: 1582622c-31ef-4445-b735-e190a1db56ce Version: $LATEST
+"
+2022-05-30 14:47:50.645,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:47:50.645,"END RequestId: 8ea7e385-865e-40e1-bfc6-8cb5d2deb68a
+"
+2022-05-30 14:47:50.645,"REPORT RequestId: 8ea7e385-865e-40e1-bfc6-8cb5d2deb68a	Duration: 1.72 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	
+"
+2022-05-30 14:47:50.643,"START RequestId: 8ea7e385-865e-40e1-bfc6-8cb5d2deb68a Version: $LATEST
+"
+2022-05-30 14:47:45.488,"END RequestId: da5a8ccc-bf70-46c1-b014-2d7d9bf2f664
+"
+2022-05-30 14:47:45.488,"REPORT RequestId: da5a8ccc-bf70-46c1-b014-2d7d9bf2f664	Duration: 2.88 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	Init Duration: 399.15 ms	
+"
+2022-05-30 14:47:45.485,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:47:45.483,"START RequestId: da5a8ccc-bf70-46c1-b014-2d7d9bf2f664 Version: $LATEST
+"
+2022-05-30 14:47:23.326,"END RequestId: 29f63950-c6d4-4716-bac9-744195dab21e
+"
+2022-05-30 14:47:23.326,"REPORT RequestId: 29f63950-c6d4-4716-bac9-744195dab21e	Duration: 304.07 ms	Billed Duration: 305 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	
+"
+2022-05-30 14:47:23.020,"START RequestId: 29f63950-c6d4-4716-bac9-744195dab21e Version: $LATEST
+"
+2022-05-30 14:43:31.283,"END RequestId: 619497fe-a36c-4ab8-9000-3d8863be840f
+"
+2022-05-30 14:43:31.283,"REPORT RequestId: 619497fe-a36c-4ab8-9000-3d8863be840f	Duration: 263.27 ms	Billed Duration: 264 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 14:43:31.018,"START RequestId: 619497fe-a36c-4ab8-9000-3d8863be840f Version: $LATEST
+"
+2022-05-30 14:40:52.962,"END RequestId: e47d1456-f090-4209-a602-8dddfd60f4e9
+"
+2022-05-30 14:40:52.962,"REPORT RequestId: e47d1456-f090-4209-a602-8dddfd60f4e9	Duration: 260.60 ms	Billed Duration: 261 ms	Memory Size: 128 MB	Max Memory Used: 69 MB	
+"
+2022-05-30 14:40:52.698,"START RequestId: e47d1456-f090-4209-a602-8dddfd60f4e9 Version: $LATEST
+"
+2022-05-30 14:40:50.662,"END RequestId: daebce91-0b68-4ad4-88f3-740c765023da
+"
+2022-05-30 14:40:50.662,"REPORT RequestId: daebce91-0b68-4ad4-88f3-740c765023da	Duration: 262.24 ms	Billed Duration: 263 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 14:40:50.398,"START RequestId: daebce91-0b68-4ad4-88f3-740c765023da Version: $LATEST
+"
+2022-05-30 14:40:37.253,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:40:37.253,"END RequestId: 690ea32e-9a13-4741-b87b-9210eab8205a
+"
+2022-05-30 14:40:37.253,"REPORT RequestId: 690ea32e-9a13-4741-b87b-9210eab8205a	Duration: 1.59 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 55 MB	
+"
+2022-05-30 14:40:37.250,"START RequestId: 690ea32e-9a13-4741-b87b-9210eab8205a Version: $LATEST
+"
+2022-05-30 14:39:31.501,"END RequestId: 68353aed-9642-489a-9010-a0b752aa1e8a
+"
+2022-05-30 14:39:31.501,"REPORT RequestId: 68353aed-9642-489a-9010-a0b752aa1e8a	Duration: 275.72 ms	Billed Duration: 276 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 14:39:31.224,"START RequestId: 68353aed-9642-489a-9010-a0b752aa1e8a Version: $LATEST
+"
+2022-05-30 14:38:32.974,"END RequestId: 1b784363-7701-4ebb-a1e8-0b0f0982a1f4
+"
+2022-05-30 14:38:32.974,"REPORT RequestId: 1b784363-7701-4ebb-a1e8-0b0f0982a1f4	Duration: 1.95 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 55 MB	
+"
+2022-05-30 14:38:32.973,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:38:32.970,"START RequestId: 1b784363-7701-4ebb-a1e8-0b0f0982a1f4 Version: $LATEST
+"
+2022-05-30 14:38:29.315,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:38:29.315,"END RequestId: 82fd274b-be7f-428d-a22b-c6f58d7f60ee
+"
+2022-05-30 14:38:29.315,"REPORT RequestId: 82fd274b-be7f-428d-a22b-c6f58d7f60ee	Duration: 1.43 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 55 MB	
+"
+2022-05-30 14:38:29.312,"START RequestId: 82fd274b-be7f-428d-a22b-c6f58d7f60ee Version: $LATEST
+"
+2022-05-30 14:38:01.045,"END RequestId: 7f4bbb7e-9475-4b1f-bbac-350f104fe7d9
+"
+2022-05-30 14:38:01.045,"REPORT RequestId: 7f4bbb7e-9475-4b1f-bbac-350f104fe7d9	Duration: 1.44 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 55 MB	
+"
+2022-05-30 14:38:01.044,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:38:01.041,"START RequestId: 7f4bbb7e-9475-4b1f-bbac-350f104fe7d9 Version: $LATEST
+"
+2022-05-30 14:37:20.960,"END RequestId: 9abfb58d-f42d-439f-a2a3-b86952b83a72
+"
+2022-05-30 14:37:20.960,"REPORT RequestId: 9abfb58d-f42d-439f-a2a3-b86952b83a72	Duration: 276.19 ms	Billed Duration: 277 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 14:37:20.681,"START RequestId: 9abfb58d-f42d-439f-a2a3-b86952b83a72 Version: $LATEST
+"
+2022-05-30 14:37:13.300,"END RequestId: f2b3ed8f-89fc-4b00-96a1-5fa465501eab
+"
+2022-05-30 14:37:13.300,"REPORT RequestId: f2b3ed8f-89fc-4b00-96a1-5fa465501eab	Duration: 265.96 ms	Billed Duration: 266 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 14:37:13.032,"START RequestId: f2b3ed8f-89fc-4b00-96a1-5fa465501eab Version: $LATEST
+"
+2022-05-30 14:36:41.303,"END RequestId: bace9724-c09f-44ba-8294-570d7978ae90
+"
+2022-05-30 14:36:41.303,"REPORT RequestId: bace9724-c09f-44ba-8294-570d7978ae90	Duration: 1.67 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	
+"
+2022-05-30 14:36:41.302,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:36:41.299,"START RequestId: bace9724-c09f-44ba-8294-570d7978ae90 Version: $LATEST
+"
+2022-05-30 14:36:33.664,"END RequestId: f6ad0cb1-a4a7-41ce-a2d3-d45a0f476a96
+"
+2022-05-30 14:36:33.664,"REPORT RequestId: f6ad0cb1-a4a7-41ce-a2d3-d45a0f476a96	Duration: 1.63 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	
+"
+2022-05-30 14:36:33.663,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:36:33.660,"START RequestId: f6ad0cb1-a4a7-41ce-a2d3-d45a0f476a96 Version: $LATEST
+"
+2022-05-30 14:36:09.670,"END RequestId: 31c8f47b-cde4-47ed-add2-18e847fe6c85
+"
+2022-05-30 14:36:09.670,"REPORT RequestId: 31c8f47b-cde4-47ed-add2-18e847fe6c85	Duration: 1.71 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	
+"
+2022-05-30 14:36:09.669,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:36:09.655,"START RequestId: 31c8f47b-cde4-47ed-add2-18e847fe6c85 Version: $LATEST
+"
+2022-05-30 14:35:28.259,"END RequestId: 057c664c-910a-4b07-a9cb-94d90cead841
+"
+2022-05-30 14:35:28.259,"REPORT RequestId: 057c664c-910a-4b07-a9cb-94d90cead841	Duration: 247.41 ms	Billed Duration: 248 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 14:35:28.009,"START RequestId: 057c664c-910a-4b07-a9cb-94d90cead841 Version: $LATEST
+"
+2022-05-30 14:35:08.370,"END RequestId: 83670a04-526b-4f0f-b45e-6deab54d6e28
+"
+2022-05-30 14:35:08.370,"REPORT RequestId: 83670a04-526b-4f0f-b45e-6deab54d6e28	Duration: 1.69 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	
+"
+2022-05-30 14:35:08.369,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:35:08.366,"START RequestId: 83670a04-526b-4f0f-b45e-6deab54d6e28 Version: $LATEST
+"
+2022-05-30 14:34:16.498,"END RequestId: 7c08d389-ca4d-4887-ae93-c5a799724258
+"
+2022-05-30 14:34:16.498,"REPORT RequestId: 7c08d389-ca4d-4887-ae93-c5a799724258	Duration: 1581.80 ms	Billed Duration: 1582 ms	Memory Size: 128 MB	Max Memory Used: 67 MB	Init Duration: 364.83 ms	
+"
+2022-05-30 14:34:14.916,"START RequestId: 7c08d389-ca4d-4887-ae93-c5a799724258 Version: $LATEST
+"
+2022-05-30 14:34:08.310,"END RequestId: 7498e48d-af44-438d-b4dd-e8eacfd56664
+"
+2022-05-30 14:34:08.310,"REPORT RequestId: 7498e48d-af44-438d-b4dd-e8eacfd56664	Duration: 15.90 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 54 MB	Init Duration: 371.52 ms	
+"
+2022-05-30 14:34:08.308,"[ERROR] TypeError: the JSON object must be str, bytes or bytearray, not NoneTypeTraceback (most recent call last):  File ""/var/task/create.py"", line 7, in create    data = json.loads(event['body'])  File ""/var/lang/lib/python3.7/json/__init__.py"", line 341, in loads    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+"
+2022-05-30 14:34:08.293,"START RequestId: 7498e48d-af44-438d-b4dd-e8eacfd56664 Version: $LATEST
+"
+2022-05-30 12:40:05.806,"END RequestId: 1215fbf1-99f4-405b-b558-c358116910ca
+"
+2022-05-30 12:40:05.806,"REPORT RequestId: 1215fbf1-99f4-405b-b558-c358116910ca	Duration: 272.58 ms	Billed Duration: 273 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 12:40:05.777,"Result getItem:{'Item': {'checked': False, 'createdAt': '1653480159.4028933', 'text': 'Learn Serverless', 'id': '93082aac-dc22-11ec-900d-1285dbbedf45', 'updatedAt': '1653480159.4028933'}, 'ResponseMetadata': {'RequestId': '06NAHK9AHD5D54J87651TT7557VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Mon, 30 May 2022 12:40:05 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '195', 'connection': 'keep-alive', 'x-amzn-requestid': '06NAHK9AHD5D54J87651TT7557VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '3815630274'}, 'RetryAttempts': 0}}
+"
+2022-05-30 12:40:05.532,"START RequestId: 1215fbf1-99f4-405b-b558-c358116910ca Version: $LATEST
+"
+2022-05-30 12:36:53.324,"END RequestId: 957d5675-fccc-4af1-ad74-5426f63fdafd
+"
+2022-05-30 12:36:53.324,"REPORT RequestId: 957d5675-fccc-4af1-ad74-5426f63fdafd	Duration: 244.64 ms	Billed Duration: 245 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 12:36:53.312,"Result getItem:{'Item': {'checked': False, 'createdAt': '1653480159.4028933', 'text': 'Learn Serverless', 'id': '93082aac-dc22-11ec-900d-1285dbbedf45', 'updatedAt': '1653480159.4028933'}, 'ResponseMetadata': {'RequestId': 'P4RQ0N1RL58B0HFNPQ4573HA53VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Mon, 30 May 2022 12:36:53 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '195', 'connection': 'keep-alive', 'x-amzn-requestid': 'P4RQ0N1RL58B0HFNPQ4573HA53VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '3815630274'}, 'RetryAttempts': 0}}
+"
+2022-05-30 12:36:53.067,"START RequestId: 957d5675-fccc-4af1-ad74-5426f63fdafd Version: $LATEST
+"
+2022-05-30 12:36:16.985,"END RequestId: d1ac8cee-24ee-4b8d-a490-20e9ce2fd666
+"
+2022-05-30 12:36:16.985,"REPORT RequestId: d1ac8cee-24ee-4b8d-a490-20e9ce2fd666	Duration: 1645.25 ms	Billed Duration: 1646 ms	Memory Size: 128 MB	Max Memory Used: 67 MB	Init Duration: 417.90 ms	
+"
+2022-05-30 12:36:16.950,"Result getItem:{'Item': {'checked': False, 'createdAt': '1653480159.4028933', 'text': 'Learn Serverless', 'id': '93082aac-dc22-11ec-900d-1285dbbedf45', 'updatedAt': '1653480159.4028933'}, 'ResponseMetadata': {'RequestId': 'I6LB91E2RDKQQMQOGBAKT4IVL3VV4KQNSO5AEMVJF66Q9ASUAAJG', 'HTTPStatusCode': 200, 'HTTPHeaders': {'server': 'Server', 'date': 'Mon, 30 May 2022 12:36:16 GMT', 'content-type': 'application/x-amz-json-1.0', 'content-length': '195', 'connection': 'keep-alive', 'x-amzn-requestid': 'I6LB91E2RDKQQMQOGBAKT4IVL3VV4KQNSO5AEMVJF66Q9ASUAAJG', 'x-amz-crc32': '3815630274'}, 'RetryAttempts': 0}}
+"
+2022-05-30 12:36:15.339,"START RequestId: d1ac8cee-24ee-4b8d-a490-20e9ce2fd666 Version: $LATEST
+"
+2022-05-30 12:35:40.059,"END RequestId: f73f55ff-ed58-4168-8493-d2ca91573c20
+"
+2022-05-30 12:35:40.059,"REPORT RequestId: f73f55ff-ed58-4168-8493-d2ca91573c20	Duration: 264.65 ms	Billed Duration: 265 ms	Memory Size: 128 MB	Max Memory Used: 68 MB	
+"
+2022-05-30 12:35:39.792,"START RequestId: f73f55ff-ed58-4168-8493-d2ca91573c20 Version: $LATEST
+"
+2022-05-30 12:34:44.019,"END RequestId: 63070ce6-4449-4b06-96d3-4d87ff4122eb
+"
+2022-05-30 12:34:44.019,"REPORT RequestId: 63070ce6-4449-4b06-96d3-4d87ff4122eb	Duration: 1705.34 ms	Billed Duration: 1706 ms	Memory Size: 128 MB	Max Memory Used: 67 MB	Init Duration: 403.53 ms	
+"
+2022-05-30 12:34:42.312,"START RequestId: 63070ce6-4449-4b06-96d3-4d87ff4122eb Version: $LATEST
+"

@@ -4,13 +4,11 @@ import unittest
 from urllib.request import urlopen
 import requests
 import json
-
 import pytest
 
 BASE_URL = os.environ.get("BASE_URL")
 #BASE_URL = "https://m0qwfec693.execute-api.us-east-1.amazonaws.com/Prod"
 DEFAULT_TIMEOUT = 2  # in secs
-
 
 @pytest.mark.api
 class TestApi(unittest.TestCase):
@@ -199,4 +197,41 @@ class TestApi(unittest.TestCase):
             response.status_code, 404, "Error en la petición API a {url}"
         )
         print('End - integration test Delete TODO')
-    
+    def test_api_translatetodo(self):
+        print('---------------------------------------')
+        print('Starting - integration test Translate TODO')
+        #Add TODO
+        url = BASE_URL+"/todos"
+        data = {
+         "text": "Integration text example - Translate"
+        }
+        response = requests.post(url, data=json.dumps(data))
+        json_response = response.json()
+        print('Response Add Todo: '+ str(json_response))
+        jsonbody= json.loads(json_response['body'])
+        ID_TODO = jsonbody['id']
+        print ('ID todo:'+ID_TODO)
+        self.assertEqual(
+            response.status_code, 200, "Error en la petición API a {url}"
+        )
+        self.assertEqual(
+            jsonbody['text'], "Integration text example - Translate", "Error en la petición API a {url}"
+        )
+        #Test TRANSLATE TODO
+        url = "{}/todos/{}/es".format(BASE_URL,ID_TODO)
+        response = requests.get(url)
+        json_response = response.json()
+        print('Response Translate Todo to es: '+ str(json_response))
+        self.assertEqual(
+            response.status_code, 200, "Error en la petición API a {url}"
+        )
+        self.assertEqual(
+            json_response['text'], "Ejemplo de texto de integración: Traducir", "Error en la petición API a {url}"
+        )
+        #Delete TODO to restore state
+        url = "{}/todos/{}".format(BASE_URL,ID_TODO)
+        response = requests.delete(url)
+        self.assertEqual(
+            response.status_code, 200, "Error en la petición API a {url}"
+        )
+        print('End - integration test Translate TODO')
